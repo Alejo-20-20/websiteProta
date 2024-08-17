@@ -1,0 +1,290 @@
+.january6th2024 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.januaryHeadingContent {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+}
+.mountantIllustration {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: var(--heading-heading-01-size);
+  line-height: 88px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: var(--heading-heading-01);
+  display: inline-block;
+  min-width: 550px;
+  max-width: 100%;
+}
+.heading {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.januaryHeadingContent1,
+.januaryHeadingContentParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.januaryHeadingContent1 {
+  width: 216px;
+  flex-direction: column;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+}
+.januaryHeadingContentParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.heading1 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.theValuesDriving {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--heading-heading-03-size);
+  line-height: 52px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: var(--heading-heading-01);
+  color: var(--color-main-white);
+}
+.consolidationHeadingContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  color: var(--color-main-placehover);
+}
+.yoremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+}
+.checkIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.doremIpsumDolor,
+.text {
+  align-self: stretch;
+  position: relative;
+}
+.text {
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.doremIpsumDolor {
+  font-size: var(--caption-caption-01-size);
+  line-height: 22px;
+  font-family: var(--title-title);
+  color: var(--color-main-placehover);
+}
+.checkParent,
+.textParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.textParent {
+  flex: 1;
+  flex-direction: column;
+  min-width: 818px;
+}
+.checkParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-base);
+  font-size: var(--heading-heading-06-size);
+  font-family: var(--heading-heading-01);
+}
+.contentImageContainer,
+.div,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contentImageContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.div {
+  align-self: stretch;
+  flex-direction: row;
+}
+.aCloserLook,
+.yoremIpsumDolor1 {
+  align-self: stretch;
+  position: relative;
+}
+.aCloserLook {
+  line-height: 32px;
+  text-transform: capitalize;
+}
+.yoremIpsumDolor1 {
+  font-size: var(--title-title-size);
+  line-height: 30px;
+  font-family: var(--title-title);
+}
+.consolidationHeadingContent1,
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.consolidationHeadingContent1 {
+  gap: var(--gap-base);
+  font-size: var(--heading-heading-05-size);
+  font-family: var(--heading-heading-01);
+}
+.content {
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  text-align: left;
+}
+.showcasingOurCreative {
+  margin: 0;
+  height: 68px;
+  width: 911px;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.buttonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.heading2 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--heading-heading-02-size);
+  font-family: var(--heading-heading-01);
+}
+.frameParent,
+.heading2,
+.portfolioDetailInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1290px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-81xl);
+}
+.portfolioDetailInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--title-title-size);
+  color: var(--color-main-white);
+  font-family: var(--title-title);
+}
+@media screen and (max-width: 1250px) {
+  .heading2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .textParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .mountantIllustration {
+    font-size: var(--font-size-21xl);
+    line-height: 53px;
+    min-width: 100%;
+  }
+  .theValuesDriving {
+    font-size: var(--font-size-16xl);
+    line-height: 42px;
+  }
+  .content {
+    gap: var(--gap-xl);
+  }
+  .showcasingOurCreative {
+    font-size: var(--font-size-26xl);
+    line-height: 54px;
+  }
+  .frameParent {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .mountantIllustration {
+    font-size: var(--heading-heading-05-size);
+    line-height: 35px;
+  }
+  .theValuesDriving {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+  .text {
+    font-size: var(--button-normal-size);
+    line-height: 22px;
+  }
+  .aCloserLook {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .showcasingOurCreative {
+    font-size: var(--font-size-15xl);
+    line-height: 41px;
+  }
+  .frameParent {
+    gap: var(--gap-6xl);
+  }
+}

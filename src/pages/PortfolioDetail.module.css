@@ -1,0 +1,56 @@
+.protaLogoDesktop1 {
+  position: absolute;
+  top: 170px;
+  left: 323px;
+  width: 1274px;
+  height: 579px;
+  object-fit: cover;
+}
+.img {
+  height: 920px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-main-secondary);
+  overflow: hidden;
+  max-width: 100%;
+}
+.imgWrapper,
+.portfolioDetail {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.imgWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-41xl);
+  max-width: 100%;
+}
+.portfolioDetail {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-main-on-surface);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 157.2px;
+  gap: var(--gap-21xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1100px) {
+  .imgWrapper {
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .imgWrapper {
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .portfolioDetail {
+    gap: var(--gap-xl);
+  }
+}

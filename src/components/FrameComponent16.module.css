@@ -1,0 +1,144 @@
+.howDoesAi,
+.seamlessIntegration {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+}
+.seamlessIntegration {
+  margin: 0;
+  width: 789.7px;
+  font-size: inherit;
+  line-height: 68px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.howDoesAi {
+  width: 814px;
+  line-height: 32px;
+}
+.icon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  border-radius: var(--br-21xl);
+}
+.faqs1 {
+  overflow: hidden;
+  padding: var(--padding-9xl) 0;
+  box-sizing: border-box;
+}
+.expandedFAQHeader,
+.faqs1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.aiGenerationCreate {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--title-title-size);
+  line-height: 30px;
+  font-family: var(--title-title);
+  color: var(--color-main-secondary);
+}
+.faqs2 {
+  border-top: 1px solid var(--color-main-outline);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) 0 var(--padding-9xl);
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.content,
+.faqs2,
+.faqs3 {
+  align-self: stretch;
+}
+.faqs3 {
+  border-top: 1px solid var(--color-main-outline);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-7xl) 0 var(--padding-9xl);
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.content {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--heading-heading-05-size);
+}
+.content,
+.faqs,
+.faqsWrapper {
+  display: flex;
+  max-width: 100%;
+}
+.faqs {
+  width: 850px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.faqsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-101xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--heading-heading-02-size);
+  color: var(--color-main-on-surface);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 1050px) {
+  .seamlessIntegration {
+    font-size: var(--font-size-26xl);
+    line-height: 54px;
+  }
+  .faqs1 {
+    justify-content: center;
+  }
+  .expandedFAQHeader,
+  .faqs1,
+  .faqs3 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .faqsWrapper {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .seamlessIntegration {
+    font-size: var(--font-size-15xl);
+    line-height: 41px;
+  }
+  .howDoesAi {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .faqs {
+    gap: var(--gap-xl);
+  }
+}

@@ -1,0 +1,39 @@
+.checkIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.featureLabel {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: calc(100% - 32px);
+}
+.featureItem,
+.featuresRow {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.featureItem {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.featuresRow {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  min-width: 267px;
+  text-align: left;
+  font-size: var(--button-normal-size);
+  color: var(--color-main-on-surface);
+  font-family: var(--heading-heading-01);
+}

@@ -1,0 +1,20 @@
+.breadcrumbContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-81xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-heading-02-size);
+  color: var(--color-main-on-surface);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 450px) {
+  .breadcrumbContainer {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}

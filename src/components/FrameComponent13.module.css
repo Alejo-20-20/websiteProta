@@ -1,0 +1,58 @@
+.checkIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.doremIpsumDolor,
+.text {
+  align-self: stretch;
+  position: relative;
+}
+.text {
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.doremIpsumDolor {
+  font-size: var(--caption-caption-01-size);
+  line-height: 22px;
+  font-family: var(--title-title);
+  color: var(--color-main-placehover);
+}
+.checkParent,
+.textParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.textParent {
+  flex: 1;
+  flex-direction: column;
+  min-width: 818px;
+}
+.checkParent {
+  align-self: stretch;
+  border-bottom: 1px solid var(--color-main-secondary);
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 0 var(--padding-sm);
+  text-align: left;
+  font-size: var(--heading-heading-06-size);
+  color: var(--color-main-white);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 1100px) {
+  .textParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: var(--button-normal-size);
+    line-height: 22px;
+  }
+}
