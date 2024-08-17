@@ -1,0 +1,220 @@
+.lets {
+  margin: 0;
+}
+.letsConnect {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 88px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frameIcon {
+  height: 100px;
+  width: 138px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -9px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.contactTitle {
+  width: 353px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.sub {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--title-title-size);
+  line-height: 30px;
+  font-family: var(--title-title);
+  color: var(--color-main-placehover);
+}
+.contactTitleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.antDesigninstagramFilledIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 36px;
+}
+.contactHeader,
+.socialIcons {
+  width: 308px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.contactHeader {
+  width: 552px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  min-width: 552px;
+  max-width: 100%;
+}
+.yourName1 {
+  position: relative;
+  font-size: var(--title-title-size);
+  line-height: 30px;
+  font-family: var(--title-title);
+  color: var(--color-main-placehover);
+  text-align: left;
+  display: inline-block;
+  min-width: 92px;
+}
+.inputIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.yourName {
+  align-self: stretch;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.messenger1,
+.yourMail1 {
+  position: relative;
+  font-size: var(--title-title-size);
+  line-height: 30px;
+  font-family: var(--title-title);
+  color: var(--color-main-placehover);
+  text-align: left;
+  display: inline-block;
+  min-width: 75px;
+}
+.messenger1 {
+  min-width: 95px;
+}
+.form1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+}
+.formChild {
+  width: 114.7px;
+  height: 114.1px;
+  position: absolute;
+  margin: 0 !important;
+  right: -72.7px;
+  bottom: -66.6px;
+  object-fit: contain;
+  z-index: 1;
+}
+.form {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-41xl);
+}
+.contactContent,
+.formContainer {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.formContainer {
+  width: 632px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 632px;
+}
+.contactContent {
+  width: 1292px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameChild {
+  height: 87.6px;
+  width: 87.8px;
+  position: absolute;
+  margin: 0 !important;
+  right: 120.6px;
+  bottom: 103.7px;
+  object-fit: contain;
+}
+.contactContentParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-heading-01-size);
+  color: var(--color-main-surface);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 1300px) {
+  .contactHeader,
+  .formContainer {
+    flex: 1;
+  }
+  .contactContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 900px) {
+  .letsConnect {
+    font-size: var(--font-size-21xl);
+    line-height: 53px;
+  }
+  .contactHeader {
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+  .form,
+  .form1 {
+    gap: var(--gap-11xl);
+  }
+  .formContainer {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .letsConnect {
+    font-size: var(--heading-heading-05-size);
+    line-height: 35px;
+  }
+}

@@ -1,0 +1,123 @@
+.frameChild,
+.graphicIcon {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: contain;
+}
+.graphicIcon {
+  height: 87.6px;
+  width: 87.8px;
+  top: 780px;
+  right: 140.2px;
+}
+.frameChild {
+  height: 134.8px;
+  width: 135.4px;
+  bottom: -64px;
+  left: 139.7px;
+}
+.u {
+  color: var(--primary-orange);
+}
+.cooperateWithUsContainer {
+  margin: 0;
+  width: 1000px;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.bannerButton {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.banner,
+.bannerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.banner {
+  align-self: stretch;
+  background-color: var(--color-main-secondary);
+  overflow: hidden;
+  align-items: center;
+  padding: 115px var(--padding-xl);
+  gap: var(--gap-5xl);
+}
+.bannerContent {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0 0 281px;
+  gap: var(--gap-81xl);
+}
+.graphicParent,
+.portfolio01 {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.graphicParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--heading-heading-02-size);
+  color: var(--color-main-surface);
+  font-family: var(--heading-heading-01);
+}
+.portfolio01 {
+  width: 100%;
+  background-color: var(--color-main-on-surface);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-4xl) 0 var(--padding-138xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1300px) {
+  .bannerContent {
+    gap: var(--gap-31xl);
+    padding-bottom: 119px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .cooperateWithUsContainer {
+    font-size: var(--font-size-26xl);
+    line-height: 54px;
+  }
+  .bannerContent {
+    gap: var(--gap-6xl);
+    padding-bottom: 77px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cooperateWithUsContainer {
+    font-size: var(--font-size-15xl);
+    line-height: 41px;
+  }
+  .banner {
+    padding-top: var(--padding-56xl);
+    padding-bottom: var(--padding-56xl);
+    box-sizing: border-box;
+  }
+  .bannerContent {
+    padding-bottom: 50px;
+    box-sizing: border-box;
+  }
+}

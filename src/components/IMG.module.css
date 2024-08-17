@@ -1,0 +1,75 @@
+.arrowcircleuprightIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--br-29xl);
+  border: 1px solid var(--color-main-secondary);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fashionLookbook,
+.soremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+}
+.fashionLookbook {
+  line-height: 32px;
+  text-transform: capitalize;
+}
+.soremIpsumDolor {
+  font-size: var(--title-title-size);
+  line-height: 30px;
+  font-family: var(--title-title);
+  color: var(--color-main-secondary);
+}
+.content,
+.imageCaption,
+.img {
+  display: flex;
+  justify-content: flex-start;
+}
+.imageCaption {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+}
+.content,
+.img {
+  flex: 1;
+  max-width: 100%;
+}
+.content {
+  background-color: var(--color-main-white);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.img {
+  background-color: var(--color-main-outline);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  min-height: 640px;
+  text-align: left;
+  font-size: var(--heading-heading-05-size);
+  color: var(--color-main-on-surface);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 450px) {
+  .fashionLookbook {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,31 @@
+.buttonHover {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 107px;
+}
+.arrowdownrightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 24px;
+}
+.button {
+  border-radius: var(--br-61xl);
+  background-color: var(--color-main-on-surface);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-13xl);
+  gap: var(--gap-8xs);
+  white-space: nowrap;
+  text-align: center;
+  font-size: var(--button-normal-size);
+  color: var(--color-main-white);
+  font-family: var(--heading-heading-01);
+}

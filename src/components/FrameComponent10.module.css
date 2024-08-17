@@ -1,0 +1,104 @@
+.exploreOurAwards {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.awardsIntro,
+.exploreOurAwardsWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.exploreOurAwardsWrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 731px;
+}
+.awardsIntro {
+  width: 1290px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-21xl);
+}
+.content {
+  width: 1290px;
+  background-color: var(--color-main-white);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-21xl);
+  text-align: left;
+  font-size: var(--heading-heading-05-size);
+}
+.content,
+.ourAwards,
+.ourAwardsWrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ourAwards {
+  flex: 1;
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-81xl) var(--padding-xl);
+  gap: var(--gap-21xl);
+}
+.ourAwardsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-81xl);
+  text-align: center;
+  font-size: var(--heading-heading-02-size);
+  color: var(--color-main-on-surface);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 1350px) {
+  .ourAwardsWrapper {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .exploreOurAwards {
+    font-size: var(--font-size-26xl);
+    line-height: 54px;
+  }
+  .exploreOurAwardsWrapper {
+    min-width: 100%;
+  }
+  .awardsIntro,
+  .ourAwards {
+    gap: var(--gap-xl);
+  }
+  .ourAwards {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+  .ourAwardsWrapper {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .exploreOurAwards {
+    font-size: var(--font-size-15xl);
+    line-height: 41px;
+  }
+  .ourAwards {
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}

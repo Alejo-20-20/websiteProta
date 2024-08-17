@@ -1,0 +1,43 @@
+.icon {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.videoProduction {
+  position: relative;
+  line-height: 32px;
+  text-transform: capitalize;
+}
+.joremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--button-normal-size);
+  line-height: 26px;
+  font-family: var(--title-title);
+  color: var(--color-main-secondary);
+}
+.content,
+.service {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.service {
+  padding: var(--padding-5xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--heading-heading-05-size);
+  color: var(--color-main-on-surface);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 450px) {
+  .videoProduction {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

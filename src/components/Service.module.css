@@ -1,0 +1,50 @@
+.icon {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brandStrategy {
+  position: relative;
+  line-height: 32px;
+  text-transform: capitalize;
+}
+.soremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--title-title-size);
+  line-height: 30px;
+  font-family: var(--title-title);
+  color: var(--color-main-secondary);
+}
+.content,
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  gap: var(--gap-xs);
+}
+.service {
+  flex: 1;
+  gap: var(--gap-5xl);
+  min-width: 389px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--heading-heading-05-size);
+  color: var(--color-main-on-surface);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 450px) {
+  .brandStrategy {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .service {
+    min-width: 100%;
+  }
+}

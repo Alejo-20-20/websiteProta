@@ -1,0 +1,96 @@
+.text {
+  margin: 0;
+  height: 68px;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.serviceDescription {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+}
+.checkIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text1 {
+  flex: 1;
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  max-width: calc(100% - 32px);
+}
+.featureList {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.features {
+  align-self: stretch;
+  gap: var(--gap-base);
+  color: var(--color-main-on-surface);
+}
+.descriptionContainer,
+.features,
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.descriptionContainer {
+  align-self: stretch;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--title-title-size);
+  color: var(--color-main-secondary);
+  font-family: var(--title-title);
+}
+.heading {
+  width: 630px;
+  gap: var(--gap-13xl);
+  min-width: 630px;
+  text-align: center;
+  font-size: var(--heading-heading-02-size);
+  color: var(--color-main-on-surface);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 1825px) {
+  .heading {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .heading {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 925px) {
+  .text {
+    font-size: var(--font-size-26xl);
+    line-height: 54px;
+  }
+  .heading {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: var(--font-size-15xl);
+    line-height: 41px;
+  }
+}

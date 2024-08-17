@@ -1,0 +1,176 @@
+.isntThisTheDoordashLogo {
+  height: 88px;
+  width: 88px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 88px;
+}
+.partners,
+.services {
+  align-self: stretch;
+  background-color: var(--color-main-on-surface);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-5xl) 0;
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.services {
+  background-color: var(--color-main-surface);
+  align-items: center;
+  padding: var(--padding-81xl) var(--padding-296xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.quotes {
+  margin: 0;
+  height: 40px;
+  width: 816px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1em;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.quotesChild {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-main-white);
+}
+.banner,
+.quotes1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+}
+.banner {
+  margin-left: -316px;
+  margin-bottom: 100px;
+  background-color: var(--primary-purple);
+  flex-direction: row;
+  padding: var(--padding-5xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xl);
+  max-width: 133%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--heading-heading-04-size);
+  color: var(--color-main-white);
+  font-family: var(--heading-heading-01);
+}
+.showcasingOurCreative {
+  margin: 0;
+  height: 68px;
+  width: 911px;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.journeyButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.heading,
+.headingWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.heading {
+  width: 1290px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--heading-heading-02-size);
+  color: var(--color-main-on-surface);
+  font-family: var(--heading-heading-01);
+}
+.headingWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-21xl);
+  box-sizing: border-box;
+}
+.homeCreativeAgency {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-main-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1825px) {
+  .banner,
+  .services {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .partners {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .services {
+    padding-left: var(--padding-138xl);
+    padding-right: var(--padding-138xl);
+    box-sizing: border-box;
+  }
+  .heading {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 925px) {
+  .services {
+    padding: var(--padding-46xl) var(--padding-59xl);
+    box-sizing: border-box;
+  }
+  .quotes {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .showcasingOurCreative {
+    font-size: var(--font-size-26xl);
+    line-height: 54px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .services {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .quotes {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .showcasingOurCreative {
+    font-size: var(--font-size-15xl);
+    line-height: 41px;
+  }
+}

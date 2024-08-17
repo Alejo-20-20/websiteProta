@@ -1,0 +1,151 @@
+.logoChild,
+.theWorldsLeading {
+  position: relative;
+  max-width: 100%;
+}
+.theWorldsLeading {
+  width: 628px;
+  line-height: 32px;
+  text-transform: capitalize;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.logoChild {
+  align-self: stretch;
+  height: 35.1px;
+}
+.logo,
+.logoChild,
+.logoItem {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo {
+  width: 240px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xl-4) var(--padding-2xs) var(--padding-9xl-5);
+  box-sizing: border-box;
+}
+.logoItem {
+  align-self: stretch;
+  height: 33.2px;
+  position: relative;
+  max-width: 100%;
+}
+.logo1 {
+  width: 240px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xl-4) var(--padding-29xl);
+  box-sizing: border-box;
+}
+.groupIcon,
+.logo1,
+.slack {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.groupIcon {
+  align-self: stretch;
+  height: 35.9px;
+  position: relative;
+  max-width: 100%;
+}
+.slack {
+  width: 240px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xl) var(--padding-42xl) var(--padding-9xl-1);
+  box-sizing: border-box;
+}
+.logoInner {
+  align-self: stretch;
+  height: 33.6px;
+  position: relative;
+  max-width: 100%;
+}
+.logo2,
+.logoInner,
+.spotifyIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo2 {
+  width: 240px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xl-2) var(--padding-22xl);
+  box-sizing: border-box;
+}
+.spotifyIcon {
+  align-self: stretch;
+  height: 42px;
+  position: relative;
+  max-width: 100%;
+}
+.logo3,
+.partner,
+.partner1 {
+  display: flex;
+  align-items: center;
+}
+.logo3 {
+  width: 240px;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-6xl) var(--padding-29xl);
+  box-sizing: border-box;
+}
+.partner,
+.partner1 {
+  align-self: stretch;
+}
+.partner1 {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-xs);
+}
+.partner {
+  backdrop-filter: blur(8px);
+  background-color: var(--color-gray-100);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) 0 var(--padding-17xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--heading-heading-05-size);
+  color: var(--color-main-placehover);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 1300px) {
+  .partner1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theWorldsLeading {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,204 @@
+.heading {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.headingPair {
+  width: 213px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+}
+.works1 {
+  color: var(--primary-orange);
+}
+.works {
+  margin: 0;
+  width: 262px;
+  position: relative;
+  font-size: var(--heading-heading-01-size);
+  line-height: 88px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: var(--heading-heading-01);
+  text-align: left;
+  display: inline-block;
+  color: var(--color-main-surface);
+}
+.headingPair1 {
+  width: 213px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+}
+.headerElements,
+.workHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.headerElements {
+  width: 1290px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.workHeader {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.illustration,
+.img {
+  align-self: stretch;
+  position: relative;
+}
+.img {
+  height: 420px;
+  background-color: var(--color-main-secondary);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.illustration {
+  line-height: 32px;
+  text-transform: capitalize;
+}
+.garden2dIllustration {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--caption-caption-01-size);
+  line-height: 22px;
+  font-family: var(--title-title);
+  color: var(--color-main-placehover);
+}
+.galleryImages,
+.imageDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.galleryImages {
+  gap: var(--gap-5xl);
+}
+.image,
+.imageChild {
+  align-self: stretch;
+  height: 280px;
+  position: relative;
+  background-color: var(--color-main-secondary);
+}
+.imageChild {
+  height: 630px;
+}
+.galleryItems {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+  min-width: 386px;
+  max-width: 100%;
+}
+.galleryItems,
+.haLongBayCreateParent,
+.imageSetThree {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.haLongBayCreateParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.imageSetThree {
+  flex: 1;
+  gap: var(--gap-5xl);
+  min-width: 386px;
+}
+.imageSetThree,
+.showcaseContent,
+.workGallery,
+.workShowcase {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.workGallery {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--heading-heading-05-size);
+  color: var(--color-main-surface);
+  font-family: var(--heading-heading-01);
+}
+.showcaseContent,
+.workShowcase {
+  justify-content: flex-start;
+}
+.showcaseContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.workShowcase {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-41xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--title-title-size);
+  color: var(--color-main-placehover);
+  font-family: var(--title-title);
+}
+@media screen and (max-width: 1300px) {
+  .workShowcase {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .works {
+    font-size: var(--font-size-21xl);
+    line-height: 53px;
+  }
+  .headerElements {
+    flex-wrap: wrap;
+  }
+  .galleryItems,
+  .imageSetThree {
+    min-width: 100%;
+  }
+  .showcaseContent,
+  .workGallery {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .works {
+    font-size: var(--heading-heading-05-size);
+    line-height: 35px;
+  }
+  .illustration {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .galleryItems {
+    gap: var(--gap-xl);
+  }
+}
