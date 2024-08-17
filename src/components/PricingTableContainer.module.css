@@ -1,0 +1,29 @@
+.pricing,
+.pricingTableContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.pricing {
+  width: 1290px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.pricingTableContainer {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-81xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading-heading-05-size);
+  color: var(--color-main-on-surface);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 750px) {
+  .pricingTableContainer {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}

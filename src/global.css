@@ -46,6 +46,7 @@ body {
   --color-whitesmoke-100: #f9f8f3;
   --primary-purple: #5c29dd;
   --primary-orange: #f37935;
+  --color-floralwhite-100: #faf8ec;
 
   /* Gaps */
   --gap-xl: 20px;
@@ -100,6 +101,7 @@ body {
   --gap-7xl: 26px;
   --gap-77xl-3: 96.3px;
   --gap-29xl: 48px;
+  --gap-10xs: 3px;
 
   /* Paddings */
   --padding-4xl: 23px;
@@ -194,6 +196,16 @@ body {
   --padding-815xl: 834px;
   --padding-189xl: 208px;
   --padding-398xl: 417px;
+  --padding-388xl: 407px;
+  --padding-184xl: 203px;
+  --padding-4xs: 9px;
+  --padding-384xl: 403px;
+  --padding-182xl: 201px;
+  --padding-178xl: 197px;
+  --padding-127xl: 146px;
+  --padding-163xl: 182px;
+  --padding-362xl: 381px;
+  --padding-171xl: 190px;
 
   /* Border radiuses */
   --br-21xl: 40px;
@@ -204,4 +216,10 @@ body {
   --br-80xl: 99px;
   --br-165xl: 184px;
   --br-xs: 12px;
+  --br-41xl: 60px;
+  --br-3xs: 10px;
+  --br-11xs: 2px;
+
+  /* Effects */
+  --drop-shadow: 0px 10px 25px rgba(54, 95, 104, 0.1);
 }

@@ -1,0 +1,62 @@
+.phoneIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.detailIcons {
+  background-color: var(--color-floralwhite-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base);
+}
+.detailDividers {
+  height: 53px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-main-outline);
+  box-sizing: border-box;
+}
+.callUs1,
+.infoValues {
+  position: relative;
+  display: inline-block;
+}
+.callUs1 {
+  line-height: 32px;
+  text-transform: capitalize;
+  min-width: 80px;
+}
+.infoValues {
+  font-size: var(--title-title-size);
+  line-height: 30px;
+  font-family: var(--title-title);
+  color: var(--color-main-secondary);
+  min-width: 113px;
+}
+.callUs,
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.callUs {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--heading-heading-05-size);
+  color: var(--color-main-on-surface);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 450px) {
+  .callUs1 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

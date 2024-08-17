@@ -1,0 +1,115 @@
+.heading06 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.byMaverickNguyen {
+  position: relative;
+  font-size: var(--button-normal-size);
+  line-height: 26px;
+}
+.metaDataIcons {
+  width: 4px;
+  height: 4px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-main-secondary);
+}
+.metaDataElements {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+}
+.oct122023 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 84px;
+}
+.metaDataElements1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.comments {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 94px;
+}
+.articleMeta,
+.heading06Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.articleMeta {
+  flex-direction: row;
+  font-size: var(--caption-caption-01-size);
+  color: var(--color-main-secondary);
+  font-family: var(--title-title);
+}
+.heading06Parent {
+  align-self: stretch;
+  flex-direction: column;
+}
+.contentResult {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--title-title-size);
+  line-height: 30px;
+  font-family: var(--title-title);
+}
+.arrowrightIcon {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 16px;
+  left: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.articleContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-29xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-5xs);
+  min-height: 206px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-heading-04-size);
+  color: var(--color-main-on-surface);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 1050px) {
+  .heading06 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading06 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .articleMeta {
+    flex-wrap: wrap;
+  }
+}

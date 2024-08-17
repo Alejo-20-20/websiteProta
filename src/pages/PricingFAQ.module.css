@@ -1,0 +1,28 @@
+.breadcrumbContainer,
+.pricingFaq {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.breadcrumbContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-81xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pricingFaq {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-main-white);
+  overflow: hidden;
+  flex-direction: column;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 450px) {
+  .breadcrumbContainer {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}

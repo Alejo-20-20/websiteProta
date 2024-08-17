@@ -1,0 +1,386 @@
+.getInTouch {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.mappinlineIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mappinlineWrapper {
+  background-color: var(--color-floralwhite-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base);
+}
+.addressChild {
+  height: 53px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-main-outline);
+  box-sizing: border-box;
+}
+.address1 {
+  position: relative;
+  line-height: 32px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 98px;
+}
+.parkerRdAllentown {
+  position: relative;
+  font-size: var(--title-title-size);
+  line-height: 30px;
+  font-family: var(--title-title);
+  color: var(--color-main-secondary);
+  text-align: left;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 246px;
+}
+.address,
+.contact,
+.content,
+.info {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.address {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.contact,
+.info {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.info {
+  align-self: stretch;
+  gap: var(--gap-81xl);
+  font-size: var(--heading-heading-05-size);
+}
+.contact {
+  width: 475px;
+  gap: var(--gap-13xl);
+  min-width: 475px;
+}
+.firstName,
+.nameInputTypes {
+  position: relative;
+  font-family: var(--title-title);
+  color: var(--color-main-on-surface);
+  text-align: left;
+}
+.firstName {
+  align-self: stretch;
+  font-size: var(--caption-label-size);
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.nameInputTypes {
+  flex: 1;
+  font-size: var(--button-normal-size);
+  line-height: 26px;
+  display: inline-block;
+  max-width: 100%;
+}
+.input,
+.inputWithLabel {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input {
+  background-color: var(--color-main-white);
+  border-bottom: 1px solid var(--color-main-on-surface);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-2xs) 0 var(--padding-4xs);
+}
+.inputWithLabel {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.phoneNumber {
+  flex: 1;
+  position: relative;
+  font-size: var(--button-normal-size);
+  line-height: 26px;
+  font-family: var(--title-title);
+  color: var(--color-main-placehover);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.input1,
+.row {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input1 {
+  background-color: var(--color-main-white);
+  border-bottom: 1px solid var(--color-main-outline);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-2xs) 0 var(--padding-4xs);
+}
+.row {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.dropdownText,
+.text {
+  position: relative;
+  font-size: var(--button-normal-size);
+  line-height: 26px;
+  text-align: left;
+  display: inline-block;
+}
+.text {
+  flex: 1;
+  font-family: var(--title-title);
+  color: var(--color-main-placehover);
+  white-space: nowrap;
+  max-width: 100%;
+}
+.dropdownText {
+  font-family: var(--heading-heading-01);
+  color: var(--color-main-on-surface);
+  min-width: 20px;
+}
+.chevronDownIcon,
+.dropdown {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chevronDownIcon {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.dropdown {
+  width: 44px;
+  border-right: 1px solid var(--color-main-outline);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-2xs) 0 0;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.text1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--button-normal-size);
+  line-height: 26px;
+  font-family: var(--title-title);
+  color: var(--color-main-placehover);
+  text-align: left;
+  display: inline-block;
+  min-width: 120px;
+  max-width: 100%;
+}
+.input3 {
+  align-self: stretch;
+  background-color: var(--color-main-white);
+  border-bottom: 1px solid var(--color-main-outline);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 var(--padding-4xs);
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.subject {
+  width: 200px;
+  position: relative;
+  font-size: var(--caption-label-size);
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--title-title);
+  color: var(--color-main-on-surface);
+  text-align: left;
+}
+.formFields,
+.input4 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input4 {
+  background-color: var(--color-main-white);
+  border-bottom: 1px solid var(--color-main-outline);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-2xs) 0 var(--padding-4xs);
+}
+.formFields {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.shape {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-main-placehover);
+  box-sizing: border-box;
+}
+.backgroundShape {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.collectedAndStored {
+  text-decoration: underline;
+}
+.text2 {
+  flex: 1;
+  position: relative;
+  font-size: var(--button-normal-size);
+  line-height: 26px;
+  font-family: var(--title-title);
+  color: var(--color-main-secondary);
+  text-align: left;
+  display: inline-block;
+  min-width: 323px;
+  max-width: 100%;
+}
+.contactForm,
+.formBackground {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.formBackground {
+  width: 591px;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.contactForm {
+  margin: 0;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  min-width: 491px;
+}
+.contactWrapper,
+.contactWrapperWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.contactWrapper {
+  width: 1290px;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+}
+.contactWrapperWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-81xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--heading-heading-02-size);
+  color: var(--color-main-on-surface);
+  font-family: var(--heading-heading-01);
+}
+@media screen and (max-width: 1200px) {
+  .contact {
+    flex: 1;
+  }
+  .contactWrapper {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .getInTouch {
+    font-size: var(--font-size-26xl);
+    line-height: 54px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .info {
+    gap: var(--gap-31xl);
+  }
+  .contact {
+    gap: var(--gap-base);
+    min-width: 100%;
+  }
+  .formBackground,
+  .input3 {
+    flex-wrap: wrap;
+  }
+  .contactForm {
+    gap: var(--gap-base);
+    min-width: 100%;
+  }
+  .contactWrapper {
+    gap: var(--gap-11xl);
+  }
+  .contactWrapperWrapper {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .getInTouch {
+    font-size: var(--font-size-15xl);
+    line-height: 41px;
+  }
+  .addressChild {
+    width: 100%;
+    height: 1px;
+  }
+  .address1 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .address {
+    flex-wrap: wrap;
+  }
+}
